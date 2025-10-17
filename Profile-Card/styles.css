@@ -1,0 +1,158 @@
+/* Write CSS code here */ 
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: "Varela Round", sans-serif; 
+    } 
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: "Varela Round", sans-serif; 
+    } 
+   
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   
+.profile-card { 
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+    padding: 15px; 
+    border-radius: 24px; 
+    background-color: rgb(166, 223, 241); 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
+    } 
+   
+.corners { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 200px; 
+    color: white; 
+    } 
+   
+.pro { 
+    background-color: #cf7f26; 
+    padding: 0 4px; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    } 
+   
+.corners i { 
+    color: #29abe2; 
+    cursor: pointer; 
+    } 
+   
+.image { 
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    background-color: white; 
+    margin-bottom: 10px; 
+    } 
+   
+.profile-img { 
+    width: 100%; 
+    height: 100%; 
+    border-radius: 50%; 
+    object-fit: fill; 
+    } 
+   
+.profile-card .text-data { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    font-weight: bold; 
+    } 
+   
+.text-data .name { 
+    font-size: 22px; 
+    font-weight: bold; 
+    } 
+   
+.text-data .job { 
+    font-size: 15px; 
+    font-weight: 400; 
+    text-align: center; 
+    } 
+   
+.text-data .name { 
+    font-size: 22px; 
+    font-weight: bold; 
+    } 
+   
+.text-data .job { 
+    font-size: 15px; 
+    font-weight: 400; 
+    text-align: center; 
+    } 
+   
+.text-data .mailid { 
+    font-size: 15px; 
+    font-weight: 500; 
+    color: #89c0e5; 
+    margin-bottom: 10px; 
+    } 
+   
+.profile-card .media-buttons { 
+    display: flex; 
+    align-items: center; 
+    margin-top: 15px; 
+    } 
+   
+.link { 
+    font-size: 18px; /* This won't directly affect the icon size as it's an icon font */ 
+    width: 34px; 
+    height: 34px; 
+    cursor: pointer; 
+    } 
+   
+.buttons .button { 
+    color: white; 
+    font-size: 14px; 
+    border: none; 
+    border-radius: 24px; 
+    margin: 0 10px; 
+    padding: 3px 18px; 
+    background-color: #4070f4; 
+    } 
+   
+.buttons { 
+    margin-top: 15px; 
+    } 
+   
+#streak { 
+    background-color: #01568e; 
+    } 
+   
+.data:last-child { 
+    border-right: none; 
+    } 
+   
+.profile-card .analytics { 
+    display: flex; 
+    align-items: center; 
+    margin-top: 25px; 
+    } 
+   
+.analytics .edit-option { 
+    display: flex; 
+    align-items: center; 
+    cursor: pointer; 
+    color: #5e1af1; 
+    margin-bottom: 10px; 
+    } 
+   
+hr { 
+    width: 100%; 
+    margin-top: 30px; 
+    color: rgba(241, 241, 241, 0.475); 
+    height: 0.3px; 
+    }
+    

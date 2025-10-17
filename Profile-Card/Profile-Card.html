@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Profile Card </title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .editable {
+            border: 1px solid #ccc;
+            padding: 5px;
+            margin: 2px;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+
+</head>
+    <body>
+        <div class="profile-card">
+            <div class="corners">
+                <p class="pro">PRO</p>
+                <i class="bx bx-id-card bx-md"></i>
+            </div>
+
+            <div class="image">
+                <img src="/Amrut_Uniform_Pic-transformed.jpeg" class="profile-img" alt="Profile Picture">
+            </div>
+
+            <div class="text-data">
+                <span class="name">Amrut Kulkarni</span>
+                <span class="mailid">kulkarniamrut02@gmail.com</span>
+                <span class="job">M.Sc Student</span>  
+            </div>
+
+            <div class="media-buttons">
+                <a href="#" class="link"><i class="bx bxl-linkedin bx-sm"></i></a>
+                <a href="#" class="link"><i class="bx bxl-github bx-sm"></i></a>
+                <a href="#" class="link"><i class="bx bxl-instagram bx-sm"></i></a>
+            </div>
+
+            <div class="buttons">
+                <button class="button" id="streak">228</button>
+                <button class="button">837</button>
+            </div>
+
+            <hr>
+            </hr>
+
+            <div class="analytics">
+                <div class="edit-option">
+                    <i class="bx bx-edit-alt bx-sm"></i>
+                    <p>Edit Your Profile</p>
+                </div>
+                
+                <div class="edit-form hidden">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name-input"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email-input"><br><br>
+                    <label for="job">Job:</label>
+                    <input type="text" id="job-input"><br><br>
+                    <button id="save-btn">Save</button>
+                    <button id="cancel-btn">Cancel</button>
+                </div>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
